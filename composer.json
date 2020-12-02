@@ -11,10 +11,16 @@
             "email": "william.durand1@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:mikebronner/geocoder.git"
+        }
+    ],
     "require": {
         "php": ">=7.2",
         "psr/log": "^1.0",
-        "willdurand/geocoder": "^4.0"
+        "willdurand/geocoder": "dev-patch-1@dev"
     },
     "provide": {
         "geocoder-php/provider-implementation": "1.0"
